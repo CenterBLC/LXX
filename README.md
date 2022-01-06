@@ -2,5 +2,7 @@
 # LXX
 Rahlfs' LXX edition from 1935 with new features developed by the CBLC.
 
+This is a derivate work of http://ccat.sas.upenn.edu/gopher/text/religion/biblical/lxxmorph/
+
 
 
