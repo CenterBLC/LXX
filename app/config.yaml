@@ -26,7 +26,7 @@ typeDisplay:
 interfaceDefaults: {}
 provenanceSpec:
   corpus: "LXX"
-  doi: 10.5281/zenodo.5807148
+  doi: 10.5281/zenodo.5826308
   version: 1935
   webUrl: "https://bibleol.3bmoodle.dk/text/show_text/nestle1904/<1>/<2>/<3>"
 docs:
