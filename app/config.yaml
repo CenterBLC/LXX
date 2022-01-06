@@ -1,0 +1,35 @@
+# Here is the information for creating a config.yaml: https://annotation.github.io/text-fabric/tf/advanced/settings.html
+# Here is a good example: https://github.com/annotation/app-bhsa/blob/master/code/config.yaml
+# check whether a list with (- - - ) works or whether I need to do a list with commas "a, b, c"
+apiVersion: 3
+dataDisplay:
+  noneValues: # to revisit
+  - none
+  - unknown
+  - null
+  - NA
+# sectionSep1: #this is to display sections well in table
+# sectionSep2: #this is to display sections well in table
+# showVerseInTuple: 
+# textFormats:
+# docs: reference to transcription.md
+typeDisplay:
+  book:
+    featuresBare:
+      - book
+  word:
+    featuresBare:
+      - gloss
+    features:
+      - bol_lexeme_dict
+      - strongs
+interfaceDefaults: {}
+provenanceSpec:
+  corpus: "LXX"
+  doi: 10.5281/zenodo.5807148
+  version: 1935
+  webUrl: "https://bibleol.3bmoodle.dk/text/show_text/nestle1904/<1>/<2>/<3>"
+docs:
+  charText: 'Greek characters transcription'
+  charUrl: '{docBase}/features{docExt}'
+writing: grc # will send TF to here: https://annotation.github.io/text-fabric/tf/writing/index.html
